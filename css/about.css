@@ -12,7 +12,13 @@
     border: 1px solid rgba(162, 155, 254, 0.25);
     border-radius: 1.5rem;
 }
-.pfp { border-radius: 1vw; }
+
+.pfp {
+    margin-top: 0.35rem;
+    border-radius: 1vw;
+    width: 18.5rem;
+    height:18.5rem;
+}
 
 .profile-description { margin-bottom: 2vh; }
 
