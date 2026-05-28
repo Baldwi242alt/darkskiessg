@@ -24,11 +24,9 @@
     border-radius: 0.5rem;
     padding: 1.5rem;
 }
-
 .socials div {
     margin: auto;
-    word-break: break-word;
-    overflow-wrap: break-word;
+    white-space: nowrap;
 }
 
 #passion {
@@ -81,7 +79,7 @@
     height: 0.625rem;
     border-radius: 50%;
     background-color: #A29BFE;
-    border: 0.125rem solid #0d0d2b; /* 2px */
+    border: 0.125rem solid #0d0d2b; 
     box-shadow: 0 0 0.5rem #a29bfe, 0 0 1rem #a29bfe;
 }
 
@@ -144,7 +142,6 @@
     box-shadow: 0 0 1.5rem rgba(162, 155, 254, 0.25);
 }
 
-/* ── FAQ ─────────────────────────────────────────── */
 #faq {
     padding: 5rem 1.5rem;
 }
